@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ObenAuto.com — premium automotive and electric mobility domain name available for acquisition.">
+<title>ObenAuto.com — Premium Automotive Domain</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#06080b; --panel:#0c1117; --panel2:#10161e; --text:#f4f7fa;
+  --muted:#9ba7b4; --line:rgba(255,255,255,.09); --accent:#b9ff3d;
+  --accent2:#79d4ff; --shadow:0 30px 80px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:
+ radial-gradient(circle at 12% 10%,rgba(185,255,61,.09),transparent 25%),
+ radial-gradient(circle at 90% 25%,rgba(121,212,255,.08),transparent 28%),
+ linear-gradient(120deg,transparent 45%,rgba(255,255,255,.015) 50%,transparent 55%);z-index:-1}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.logo{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.05em;font-size:22px}
+.logo span{color:var(--accent)}
+.nav-pill{border:1px solid var(--line);padding:10px 15px;border-radius:999px;color:#cbd3da;font-size:13px;background:rgba(255,255,255,.025)}
+.hero{min-height:calc(100vh - 78px);display:grid;place-items:center;padding:80px 0 70px;position:relative}
+.grid{position:absolute;inset:0;opacity:.24;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to bottom,#000,transparent 85%)}
+.hero-inner{position:relative;text-align:center;max-width:930px}
+.badge{display:inline-flex;gap:8px;align-items:center;border:1px solid rgba(185,255,61,.22);background:rgba(185,255,61,.06);padding:8px 13px;border-radius:999px;color:#d7ff9d;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;animation:fadeUp .7s ease both}
+.dot{width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 18px var(--accent);animation:pulse 1.8s infinite}
+h1{font-family:"Space Grotesk";font-size:clamp(58px,10vw,132px);line-height:.86;letter-spacing:-.075em;margin:28px 0 25px;animation:fadeUp .8s .08s ease both}
+h1 .shine{background:linear-gradient(110deg,#fff 25%,#b9ff3d 50%,#fff 75%);background-size:220% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite}
+.subtitle{max-width:720px;margin:0 auto;color:#aeb9c5;font-size:clamp(16px,2vw,20px);line-height:1.65;animation:fadeUp .8s .16s ease both}
+.cta{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;margin-top:34px;animation:fadeUp .8s .24s ease both}
+.btn{border:0;cursor:pointer;border-radius:14px;padding:16px 24px;font:700 15px "DM Sans";transition:.25s;display:inline-flex;align-items:center;justify-content:center;gap:9px}
+.btn-primary{background:var(--accent);color:#071000;box-shadow:0 10px 35px rgba(185,255,61,.17)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 42px rgba(185,255,61,.28)}
+.btn-secondary{background:#fff;color:#07090c}
+.btn-secondary:hover{transform:translateY(-3px);box-shadow:0 16px 42px rgba(255,255,255,.14)}
+.price{display:inline-flex;align-items:center;gap:10px;margin-top:20px;color:#83909c;font-size:13px}
+.price strong{color:#fff;font-size:18px}
+.visual{margin:68px auto 0;max-width:1000px;height:310px;border:1px solid var(--line);border-radius:28px;background:
+ radial-gradient(ellipse at 55% 55%,rgba(185,255,61,.12),transparent 35%),
+ linear-gradient(135deg,#0d1319,#070a0e);box-shadow:var(--shadow);position:relative;overflow:hidden;transform:perspective(900px) rotateX(5deg);animation:float 6s ease-in-out infinite}
+.visual:before{content:"";position:absolute;width:80%;height:1px;left:10%;top:56%;background:linear-gradient(90deg,transparent,var(--accent),transparent);box-shadow:0 0 35px 5px rgba(185,255,61,.2)}
+.road{position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(180deg,transparent,rgba(255,255,255,.035));transform:skewY(-5deg);transform-origin:left bottom}
+.car{position:absolute;left:50%;top:50%;width:510px;height:100px;transform:translate(-50%,-35%);filter:drop-shadow(0 20px 25px rgba(0,0,0,.65))}
+.car .body{position:absolute;inset:26px 15px 10px;background:linear-gradient(160deg,#26313a,#0b0f13);border-radius:60% 38% 24% 18%;border:1px solid #3e4b55}
+.car .roof{position:absolute;width:230px;height:65px;left:145px;top:0;border-radius:90px 90px 12px 12px;background:linear-gradient(150deg,#34434c,#10161b);border:1px solid #4a5963}
+.car .glass{position:absolute;width:175px;height:40px;left:172px;top:8px;background:linear-gradient(135deg,#6d8b99,#0d151c);clip-path:polygon(0 100%,18% 0,82% 0,100% 100%)}
+.wheel{position:absolute;width:72px;height:72px;border-radius:50%;background:#050607;border:12px solid #20282e;bottom:0;box-shadow:inset 0 0 0 5px #07090a}
+.w1{left:74px}.w2{right:66px}
+.lamp{position:absolute;width:48px;height:8px;border-radius:8px;background:var(--accent);box-shadow:0 0 22px var(--accent);right:21px;top:48px}
+.section{padding:110px 0}
+.section-head{max-width:700px;margin-bottom:35px}
+.kicker{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.15em;text-transform:uppercase}
+h2{font-family:"Space Grotesk";font-size:clamp(34px,5vw,58px);line-height:1;letter-spacing:-.055em;margin:12px 0 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{padding:28px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.015));transition:.3s}
+.card:hover{transform:translateY(-6px);border-color:rgba(185,255,61,.28)}
+.icon{font-size:25px;margin-bottom:35px}.card h3{font-family:"Space Grotesk";font-size:22px;margin:0 0 10px}.card p{color:var(--muted);line-height:1.65;margin:0}
+.domain-box{padding:50px;border:1px solid rgba(185,255,61,.17);border-radius:28px;background:radial-gradient(circle at 50% 0,rgba(185,255,61,.09),transparent 45%),#0a0f13;text-align:center}
+.domain-box .domain{font-family:"Space Grotesk";font-size:clamp(34px,6vw,76px);letter-spacing:-.065em}
+.domain-box p{color:#9ca8b3;max-width:680px;margin:15px auto 0;line-height:1.7}
+footer{border-top:1px solid var(--line);padding:35px 0 50px;color:#73808c;font-size:12px;line-height:1.7}
+footer .foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.disclaimer{max-width:850px}
+.reveal{opacity:0;transform:translateY(25px);transition:opacity .8s,transform .8s}.reveal.show{opacity:1;transform:none}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes shine{to{background-position:220% center}}
+@keyframes pulse{50%{opacity:.35;transform:scale(.7)}}
+@keyframes float{50%{transform:perspective(900px) rotateX(5deg) translateY(-7px)}}
+@media(max-width:800px){.cards{grid-template-columns:1fr}.visual{height:250px}.car{transform:translate(-50%,-35%) scale(.68)}.domain-box{padding:35px 20px}}
+@media(max-width:520px){nav{height:68px}.hero{padding-top:55px}h1{font-size:58px}.cta .btn{width:100%}.visual{margin-top:48px;height:220px}.car{transform:translate(-50%,-35%) scale(.52)}}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+  <div class="logo">Oben<span>Auto</span><small>.com</small></div>
+  <div class="nav-pill">Premium Domain • For Sale</div>
+</nav>
+</div>
+
+<main>
+<section class="hero">
+  <div class="grid"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="badge"><span class="dot"></span> Premium automotive domain</div>
+      <h1><span class="shine">ObenAuto.com</span></h1>
+      <p class="subtitle">A sharp, memorable domain built for the next generation of automotive, electric mobility, EV technology, vehicle commerce, or auto-tech brands.</p>
+      <div class="cta">
+        <form action="https://www.escrow.com/checkout" method="post">
+          <input type="hidden" name="type" value="domain_name"><input type="hidden" name="non_initiator_email" value="chefravidutta@gmail.com"><input type="hidden" name="non_initiator_id" value="3906931"><input type="hidden" name="non_initiator_role" value="seller"><input type="hidden" name="title" value="Domain Sell"><input type="hidden" name="currency" value="USD"><input type="hidden" name="domain" value="obenauto.com"><input type="hidden" name="price" value="4999"><input type="hidden" name="concierge" value="false"><input type="hidden" name="with_content" value="false"><input type="hidden" name="inspection_period" value="1"><input type="hidden" name="fee_payer" value="seller"><input type="hidden" name="return_url" value="https://www.obenauto.com"><input type="hidden" name="button_types" value="both"><input type="hidden" name="auto_accept" value="4999"><input type="hidden" name="auto_reject" value="999"><input type="hidden" name="item_key" value="obenauto.com">
+          <button class="btn btn-primary" type="submit">Buy It Now →</button>
+        </form>
+        <form action="https://www.escrow.com/offer" method="post">
+          <input type="hidden" name="type" value="domain_name"><input type="hidden" name="non_initiator_email" value="chefravidutta@gmail.com"><input type="hidden" name="non_initiator_id" value="3906931"><input type="hidden" name="non_initiator_role" value="seller"><input type="hidden" name="title" value="Domain Sell"><input type="hidden" name="currency" value="USD"><input type="hidden" name="domain" value="obenauto.com"><input type="hidden" name="price" value="4999"><input type="hidden" name="concierge" value="false"><input type="hidden" name="with_content" value="false"><input type="hidden" name="inspection_period" value="1"><input type="hidden" name="fee_payer" value="seller"><input type="hidden" name="return_url" value="https://www.obenauto.com"><input type="hidden" name="button_types" value="both"><input type="hidden" name="auto_accept" value="4999"><input type="hidden" name="auto_reject" value="999"><input type="hidden" name="item_key" value="obenauto.com">
+          <button class="btn btn-secondary" type="submit">Make An Offer ↗</button>
+        </form>
+      </div>
+      <div class="price"><span>Asking price</span><strong>$4,999 USD</strong><span>•</span><span>Secure transaction via Escrow.com</span></div>
+    </div>
+    <div class="visual">
+      <div class="road"></div>
+      <div class="car">
+        <div class="body"></div><div class="roof"></div><div class="glass"></div>
+        <div class="wheel w1"></div><div class="wheel w2"></div><div class="lamp"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal">
+<div class="container">
+  <div class="section-head"><div class="kicker">Why ObenAuto.com</div><h2>Built for a brand that wants to move.</h2></div>
+  <div class="cards">
+    <div class="card"><div class="icon">✦</div><h3>Short & memorable</h3><p>Two clear words combine into a name that is easy to say, remember, type and build a brand around.</p></div>
+    <div class="card"><div class="icon">◉</div><h3>Auto-ready identity</h3><p>“Auto” immediately signals automotive, mobility, vehicles, dealerships, software, parts, services or EV ecosystems.</p></div>
+    <div class="card"><div class="icon">↗</div><h3>Made for growth</h3><p>A flexible name that can sit above a product, marketplace, media property, mobility platform or technology company.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section reveal" style="padding-top:20px">
+<div class="container">
+  <div class="domain-box">
+    <div class="kicker">One domain. Many directions.</div>
+    <div class="domain">ObenAuto.com</div>
+    <p>Ideal positioning opportunities include electric vehicles, automotive technology, mobility platforms, auto retail, vehicle services, charging, fleet solutions, automotive media and future-focused transportation brands.</p>
+    <div class="cta">
+      <form action="https://www.escrow.com/checkout" method="post">
+        <input type="hidden" name="type" value="domain_name"><input type="hidden" name="non_initiator_email" value="chefravidutta@gmail.com"><input type="hidden" name="non_initiator_id" value="3906931"><input type="hidden" name="non_initiator_role" value="seller"><input type="hidden" name="title" value="Domain Sell"><input type="hidden" name="currency" value="USD"><input type="hidden" name="domain" value="obenauto.com"><input type="hidden" name="price" value="4999"><input type="hidden" name="concierge" value="false"><input type="hidden" name="with_content" value="false"><input type="hidden" name="inspection_period" value="1"><input type="hidden" name="fee_payer" value="seller"><input type="hidden" name="return_url" value="https://www.obenauto.com"><input type="hidden" name="button_types" value="both"><input type="hidden" name="auto_accept" value="4999"><input type="hidden" name="auto_reject" value="999"><input type="hidden" name="item_key" value="obenauto.com">
+        <button class="btn btn-primary" type="submit">Acquire ObenAuto.com</button>
+      </form>
+      <form action="https://www.escrow.com/offer" method="post">
+        <input type="hidden" name="type" value="domain_name"><input type="hidden" name="non_initiator_email" value="chefravidutta@gmail.com"><input type="hidden" name="non_initiator_id" value="3906931"><input type="hidden" name="non_initiator_role" value="seller"><input type="hidden" name="title" value="Domain Sell"><input type="hidden" name="currency" value="USD"><input type="hidden" name="domain" value="obenauto.com"><input type="hidden" name="price" value="4999"><input type="hidden" name="concierge" value="false"><input type="hidden" name="with_content" value="false"><input type="hidden" name="inspection_period" value="1"><input type="hidden" name="fee_payer" value="seller"><input type="hidden" name="return_url" value="https://www.obenauto.com"><input type="hidden" name="button_types" value="both"><input type="hidden" name="auto_accept" value="4999"><input type="hidden" name="auto_reject" value="999"><input type="hidden" name="item_key" value="obenauto.com">
+        <button class="btn btn-secondary" type="submit">Submit Your Offer</button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container foot">
+  <div>© 2026 ObenAuto.com • Premium domain name for sale</div>
+  <div class="disclaimer">Independent domain sale. This website and domain listing are not affiliated with, sponsored by, or endorsed by any company using the “Oben” name. Buyers should conduct their own trademark and legal due diligence before acquisition or commercial use.</div>
+</div>
+</footer>
+
+<script>
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
